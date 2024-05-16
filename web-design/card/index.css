@@ -1,0 +1,75 @@
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: #fafaf9;
+  font-family: 'Sora', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem 1.2rem 1.5rem;
+  background-color: #fff;
+  box-shadow: 10px 7px 20px 2px rgba(17, 23, 41, 0.05);
+  border-radius: 1rem;
+  max-width: 400px;
+  height: fit-content;
+  column-gap: 4px;
+}
+
+.card-head {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 5px;
+}
+
+.card-head > img {
+  width: 100%;
+  border-radius: 0.5rem;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.card-head .badge {
+  background-color: #e6d6fc;
+  margin-top: 3px;
+  font-size: 0.625rem;
+  color: #883ae1;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.card-body {
+  border-bottom: 1px solid #e5eaf0;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.card-body > h1 {
+  font-size: 1.125rem;
+  color: #20293a;
+  padding: 0 1.5rem;
+}
+.card-body > p {
+  font-size: 0.875rem;
+  color: #6c727f;
+  padding: 0 1.5rem;
+}
+
+.card-footer {
+  padding-top: 1rem;
+}
+.card-footer > span {
+  font-size: 0.75rem;
+  color: #6c727f;
+}
